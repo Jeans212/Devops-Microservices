@@ -1,0 +1,111 @@
+    1  ls
+    2  git clone https://github.com/udacity/DevOps_Microservices.git
+    3  cd DevOps_Microservices
+    4  cd project-ml-microservice-kubernetes
+    5  bash resize.sh 100
+    6  make install
+    7  make setup
+    8  source ~/.devops/bin/activate
+    9  make install
+   10  make lint
+   11  brew install kubectl
+   12  test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+   13  test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+   14  test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bash_profile
+   15  test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+   16  test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+   17  test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bash_profile
+   18  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   19  brew install kubectl
+   20  cd DevOps_Microservices
+   21  cd project-ml-microservice-kubernetes
+   22  source ~/.devops/bin/activate
+   23  brew install kubectl
+   24  test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+   25  test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+   26  test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bash_profile
+   27  echo 'eval "$(/home/ec2-user/.linuxbrew/bin/brew shellenv)"' >> /home/ec2-user/.bash_profile
+   28  eval "$(/home/ec2-user/.linuxbrew/bin/brew shellenv)"
+   29  brew install kubectl
+   30  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   31  sudo chmod +x kubectl
+   32  sudo mv kubectl /usr/local/bin/kubectl
+   33  cd DevOps_Microservices/project-ml-microsservices-kubectl
+   34  cd DevOps_Microservices/project-ml-microsservice-kubectl
+   35  cd DevOps_Microservices/project-ml-microservice-kubectl
+   36  cd DevOps_Microservices/project-ml-microservice-kubernetes
+   37  source ~/.devops/bin/activate
+   38  bash run_docker.sh
+   39  docker login
+   40  bash run_docker.sh
+   41  docker pull p:latest
+   42  docker pull python:3.7.3-stretch
+   43  bash run_docker.sh
+   44  make lint
+   45  pip install -U scikit-learn==0.21.3
+   46  bash run_docker.sh
+   47  pip install -r requirements.txt
+   48  bash make_prediction.sh
+   49  bash run_docker.sh
+   50  Click==7.0
+   51  Flask==1.0.2
+   52  itsdangerous==1.1.0
+   53  Jinja2==2.10.3
+   54  MarkupSafe==1.1.1
+   55  numpy==1.17.2
+   56  pandas==0.24.2
+   57  python-dateutil==2.8.0
+   58  pytz==2019.3
+   59  scikit-learn==0.20.3
+   60  scipy==1.3.1
+   61  six==1.12.0
+   62  Werkzeug==0.16.0
+   63  touch docker_out.txt
+   64  bash make_prediction.sh
+   65  bash run_docker.sh
+   66  bash upload_docker.sh
+   67  cd DevOps_Microservices/project-ml-microservice-kubernetes
+   68  source ~/.devops/bin/activate
+   69  minicube start
+   70  minikube start
+   71  bash run_kubernetes.sh
+   72  mkdir .circleci
+   73  cd .circleci
+   74  touch config.yml
+   75  cd ..
+   76  ls
+   77  sudo mkdir .circleci
+   78  git init
+   79  git add .
+   80  dit commit -m "Initial setup"
+   81  git commit -m "Initial setup"
+   82  git branch -M main
+   83  git remote add origin https://github.com/Jeans212/Devops-Microservices.git
+   84  git push -u origin main
+   85  git remote -v
+   86  git remote set-url origin git@github.com:Jeans212/Devops-Microservices.git
+   87  git push -u origin main
+   88  git remote add origin https://github.com/Jeans212/Devops-Microservices.git
+   89  git remote set-url origin git@github.com:Jeans212/Devops-Microservices.git
+   90  git push -u origin main
+   91  git remote add origin https://github.com/Jeans212/Devops-Microservices.git
+   92  git push -u origin main
+   93  git remote set-url origin git@github.com:Jeans212/Devops-Microservices.githttps://githu
+   94  git remote set-url originhttps://githu
+   95  git remote set-url origin https://github.com/Jeans212/Devops-Microservices.git
+   96  git push -u origin main
+   97  git add .
+   98  git commit -m "Added status badge"
+   99  git push
+  100  git add .
+  101  git commit -m "Fix: config.yml"
+  102  git push
+  103  git add .
+  104  git commit -m "Fix: Makefile"
+  105  git push
+  106  git add .
+  107  git commit "Edit README"
+  108  git commit -m "Edit README"
+  109  git push
+  110  make lint
+  111  history > cmds.txt
