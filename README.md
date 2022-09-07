@@ -32,7 +32,7 @@ python3 -m pip install --user virtualenv
 # Check the Python path using `which python3`
 # Use a command similar to this one:
 python3 -m virtualenv --python=<path-to-Python3.7> .devops
-source .devops/bin/activate
+source ~/.devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
 
@@ -48,3 +48,20 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+## Directory Structure
+
+| Directory/File | Description |
+| ---- | ----------- |
+| `.circleci/config.yml` | CircleCI configuration setup |
+| `model_data` | A folder containing model data for houses in Boston |
+| `output_txt_files` | A folder containing log outputs from Docker and Kubernetes servers |
+| `app.py` | REST API Endpoint for predicting price of houses in Boston |
+| `Dockerfile` | The Dockerfile contains all the commands a user could call on the command line to assemble an image. |
+| `make_prediction.sh` | It is responsible for passing that data through a trained, machine learning model, and giving back a predicted value for the house price |
+| `Makefile` | The Makefile includes instructions on environment setup and lint tests |
+| `requirements.txt` | Dependencies requirements for running the app |
+| `run_docker.sh` | Shell script for creating and running docker container |
+| `run_kubernetes.sh` | Scripts to deploy your application on the Kubernetes cluster |
+| `upload_docker.sh` | Script to upload your built image to docker |
