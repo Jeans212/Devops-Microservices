@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Jeans212/Devops-Microservices/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Jeans212/Devops-Microservices/tree/main)
 
 ## Project Overview
 
